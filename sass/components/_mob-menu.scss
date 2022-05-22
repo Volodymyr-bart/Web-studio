@@ -1,4 +1,5 @@
 .mob-menu {
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -40,13 +41,17 @@
 }
 
 .mob-menu .mob-menu-contacts__tel {
+
     display: inline-block;
     padding-bottom: 32px;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 28px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--primary-btn-bg-color);
+    @media screen and (min-width:480px) {
+        font-size: 34px; 
+        }
 }
 
 .mob-menu-contacts__mail {
