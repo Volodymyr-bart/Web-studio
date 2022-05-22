@@ -1,9 +1,11 @@
 .advantages-list { 
       
-    justify-content: center;      
-    margin-top: calc(-1 * var(--card-set-gap));    
-        &__item {        
-            margin-top: var(--card-set-gap); 
+    justify-content: center;
+        &__item {
+            &:not(nth-last-child(n)){
+                margin-bottom:var(--card-set-gap);
+            }
+           
         }
         &__title {
             display: block;

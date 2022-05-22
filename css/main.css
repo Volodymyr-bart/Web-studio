@@ -750,9 +750,7 @@ header {
   width: 100%;
   white-space: nowrap;
 }
-.portfolio-button__item {
-  margin-bottom: 15px;
-}
+
 .portfolio-button__item:not(:last-child) {
   margin-right: 8px;
 }

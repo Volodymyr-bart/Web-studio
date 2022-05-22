@@ -2,10 +2,13 @@
     width: 100%;    
     display: block;        
     justify-items: center;    
-    margin-top: calc(-1 * var(--card-set-gap));
+    // margin-top: calc(-1 * var(--card-set-gap));
     &__item {
         height: 100%;
-        margin-top: var(--card-set-gap);        
+        &:not(nth-last-child(n)) {
+                margin-bottom: var(--card-set-gap);
+            }
+        // margin-top: var(--card-set-gap);        
     }
     
     @media screen and (min-width:768px) {

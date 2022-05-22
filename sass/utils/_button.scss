@@ -69,11 +69,6 @@
     }
 }
 
-.open-icon{
-
-}
-
-
 /*Кнопка на странице Портфолио*/
 
 .btn-portf {
@@ -97,10 +92,6 @@
 }
 }
 
-.portfolio-button .item+.item {
-    margin-left: 8px;
-}
-
 /**/
 .btn-portf.curent {
     color: var(--primary-bg-color);
@@ -122,18 +113,6 @@
             background-image: url(../images/icon-send.png);
     
     }
-}
-
-@media screen and (min-width:480px) {
-
-}
-
-@media screen and (min-width:768px) {
-
-}
-
-@media screen and (min-width:1200px) {
-    
 }
 
 
