@@ -839,6 +839,12 @@ header {
   background: var(--accent-btn-bg-color);
 }
 
+.team-list {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .team-list__item {
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -868,9 +874,19 @@ header {
 }
 
 @media screen and (min-width: 1200px) {
+  .team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0;
+  }
   .team-list__item {
+    margin-left: 0;
     -ms-flex-preferred-size: calc(100% / 4 - var(--card-set-gap));
         flex-basis: calc(100% / 4 - var(--card-set-gap));
+  }
+  .team-list__item:not(:last-child) {
+    margin-right: var(--card-set-gap);
   }
 }
 
