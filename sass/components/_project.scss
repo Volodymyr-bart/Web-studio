@@ -1,14 +1,11 @@
-.project-list { 
-    // width: 100%;    
-    display: block;        
-    // justify-items: center;    
-    // margin-top: calc(-1 * var(--card-set-gap));
+.project-list {
+    display: block; 
     &__item {
         height: 100%;
         &:not(nth-last-child(n)) {
                 margin-bottom: var(--card-set-gap);
             }
-        // margin-top: var(--card-set-gap);        
+             
     }
     
     @media screen and (min-width:768px) {
