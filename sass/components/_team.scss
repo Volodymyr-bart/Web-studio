@@ -7,9 +7,10 @@
 .team-list {
     // margin-top: calc(-1 * var(--card-set-gap));
     &__item{
-        &:not(nth-last-child(n)) {
+        &:not(:last-child) {
                 margin-bottom: var(--card-set-gap);
-            } 
+            }
+        
         // margin-top: var(--card-set-gap);
         background: #ffffff;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),

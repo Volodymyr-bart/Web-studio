@@ -2,9 +2,9 @@
     display: block; 
     &__item {
         height: 100%;
-        &:not(nth-last-child(n)) {
-                margin-bottom: var(--card-set-gap);
-            }
+    &:not(:last-child) {
+            margin-bottom: var(--card-set-gap);
+        }
              
     }
     
