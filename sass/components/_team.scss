@@ -33,8 +33,11 @@
         display: flex;
         margin-top: 0;
         margin-left: 0;
+        
         &__item{
             margin-left: 0;
+            margin-bottom: 0;
+            
             &:not(:last-child) {                                    
                 margin-right: var(--card-set-gap);
             }            
