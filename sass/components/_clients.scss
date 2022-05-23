@@ -17,8 +17,15 @@
             } 
         }
     
-    @media screen and (min-width:1200px) {        
+    @media screen and (min-width:1200px) { 
+        display: flex;
+        
         &__item {
+            margin-left: 0;
+            margin-top: 0;
+            &:not(:last-child) {
+                margin-right: var(--card-set-gap);
+            }
                 flex-basis: calc(100% / 6 - var(--card-set-gap));
             }
     }    
