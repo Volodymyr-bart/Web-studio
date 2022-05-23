@@ -35,7 +35,7 @@
         margin: 0;        
         &__item{ 
             &:not(:last-child) { 
-                                                   
+                margin: 0;
                 margin-right: var(--card-set-gap);
             }            
             flex-basis: calc(100% / 4 - var(--card-set-gap));           

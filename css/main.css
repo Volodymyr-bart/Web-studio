@@ -697,6 +697,7 @@ header {
         flex-basis: calc(100% / 4 - var(--card-set-gap));
   }
   .advantages-list__item:not(:last-child) {
+    margin: 0;
     margin-right: var(--card-set-gap);
   }
 }
