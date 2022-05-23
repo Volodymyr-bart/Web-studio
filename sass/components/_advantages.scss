@@ -4,9 +4,9 @@
         &__item {
             &:not(nth-last-child(n)){
                 margin-bottom:var(--card-set-gap);
-            }
-           
+            }           
         }
+
         &__title {
             display: block;
             margin-bottom: 10px;
