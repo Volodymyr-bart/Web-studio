@@ -1,6 +1,5 @@
 .advantages-list {  
     justify-content: center;
-    // text-align: center;
         &__item {            
             &:not(:last-child) {
                     margin-bottom: var(--card-set-gap);
@@ -34,7 +33,10 @@
         }        
     }
     @media screen and (min-width:1200px) { 
+        // text-align: center;
         display: flex;
+        // justify-content: center;
+        // align-items: center;
         margin: 0;        
         &__item{
             margin: 0;
