@@ -4,8 +4,7 @@
         height: 100%;
         &:not(:last-child) {
             margin-bottom: var(--card-set-gap);
-        }
-             
+        }             
     }
     
     @media screen and (min-width:768px) {
@@ -18,8 +17,7 @@
         &__item {
             &:not(:last-child) {
                     margin-bottom: 0;
-                }
-            
+                }            
             flex-basis: calc(100% / 2 - var(--card-set-gap));
             margin-left: var(--card-set-gap);
             margin-top: var(--card-set-gap);
