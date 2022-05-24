@@ -32,11 +32,8 @@
             margin-top: var(--card-set-gap);
         }        
     }
-    @media screen and (min-width:1200px) { 
-        // text-align: center;
-        display: flex;
-        // justify-content: center;
-        // align-items: center;
+    @media screen and (min-width:1200px) {         
+        display: flex;        
         margin: 0;        
         &__item{
             margin: 0;
