@@ -2,7 +2,7 @@
     display: block; 
     &__item {
         height: 100%;
-    &:not(:last-child) {
+        &:not(:last-child) {
             margin-bottom: var(--card-set-gap);
         }
              
@@ -13,9 +13,16 @@
 
         flex-wrap: wrap;
         margin-left: calc(-1 * var(--card-set-gap));
+        margin-top: calc(-1 * var(--card-set-gap));
+
         &__item {
-                flex-basis: calc(100% / 2 - var(--card-set-gap));
-                margin-left: var(--card-set-gap);
+            &:not(:last-child) {
+                    margin-bottom: 0;
+                }
+            
+            flex-basis: calc(100% / 2 - var(--card-set-gap));
+            margin-left: var(--card-set-gap);
+            margin-top: var(--card-set-gap);
         }   
         
     }    
