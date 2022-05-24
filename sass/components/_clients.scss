@@ -17,11 +17,10 @@
         }
     
     @media screen and (min-width:1200px) {
-        margin-top: 0;
-        margin-left: 0;
+        display: flex;
+        margin: 0;        
         &__item {
-            margin-left: 0;
-            margin-top: 0;
+            margin: 0;            
             &:not(:last-child) {
                 margin-right: var(--card-set-gap);
             }
